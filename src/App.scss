@@ -1,0 +1,79 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+nav {
+  padding: 60px 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgba(128, 128, 128, 0.178);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+nav .createBtn {
+  background: #10a72481;
+  border-radius: 5px;
+  color: white;
+}
+
+nav .createBtn:hover {
+  background: #10a724;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
